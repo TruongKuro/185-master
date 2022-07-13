@@ -1,0 +1,14 @@
+{
+    "user1":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user2":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user3":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user4":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user5":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user6":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user7":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":false},
+    "user8":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user9":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user10":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true},
+    "user11":{"id":"01","hoten":"Tran Van Quy","email":"example@gmail.com","sodienthoai":"0333333333","vaitro":"Super Admin","ngaytao":"20/7/2020","trangthai":true}
+
+}

@@ -1,0 +1,385 @@
+.admin-container {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+.add-mission-header-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.add-mission-header-link a:nth-child(1) {
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.add-mission-header-link i {
+    margin: 0 18px;
+    font-size: 12px;
+}
+.add-mission-header-link a:nth-child(3) {
+    color: #1A48E9;
+    font-size: 14px;
+    font-weight: 500;
+}
+.container-add-mission {
+    box-shadow: 0 0 3px #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.card-input {
+    width: 838px;
+    padding: 16px;
+    border-right: 2px solid #ccc;
+}
+.card-checkbox {
+    width: 247px;
+    padding: 24px;
+}
+
+.form-check-input, 
+.checkbox-size-18 {
+    width: 18px;
+    height: 18px;
+
+}
+
+.form-check-input + .form-check-label {
+    margin-left: 6px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.resize-none {
+    resize: none;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.add-mission-btn-next {
+    width: 160px;
+    height: 40px;
+    background-color: #1A48E9;
+    margin-top: 30px;
+}
+.add-mission-file-result {
+    width: 370px;
+    height: 36px;
+    border: 1px solid #1A48E9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.add-mission-file-result + .add-mission-file-result {
+    margin-top: 16px;
+}
+.add-mission-file-result img {
+    width: 11px;
+    height: 14px;
+}
+.add-mission-file-result span {
+    margin-left: 12px;
+    font-size: 12px;
+}
+.add-mission-input-number-remind {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.add-mission-input-file {
+    position: relative;
+    width: 100%;
+    height: 63px;
+    border: 1px dashed #1A48E9;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+.add-mission-input-file span {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #1A48E9;
+    font-size: 16px;
+}
+.add-mission-input-file input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+
+/* MODAL */
+.modal-add-mission {
+    z-index: 1001;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 88, 88, 0.707);
+    overflow: none;
+    opacity: 1;
+}
+
+.modal-add-mission-content {
+    width: 1085px;
+    height: 793px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.modal-title {
+    font-style: 16px;
+    font-weight: 600;
+}
+
+.modal-subtitle {
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 400;
+    color: #989898
+}
+
+.modal-add-mission-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-add-mission-input-search {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0px 2px 6px rgba(28, 73, 143, 0.08);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.modal-add-mission-input-search input {
+    outline: none;
+    border: none;
+    flex: 1;
+}
+
+.modal-add-mission-input-search input:focus {
+    opacity: none !important;
+}
+
+.modal-add-mission-number-selected {
+    width: 240px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #EDF4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-add-mission-number-selected span:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+}
+.modal-add-mission-number-selected span:nth-child(2){
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.table-header {
+    display: flex;
+    background-color: #EDF4FF;
+    margin-top: 12px;
+    padding: 8px 12px;
+}
+
+.table-col-checkbox {
+    width: calc(100% / 11);
+    text-align: center;
+    display: flex;
+}
+.table-col-checkbox input {
+    text-align: center;
+}
+.table-col-number {
+    width: calc(100% / 11);
+    display: flex;
+    align-items: center;
+}
+
+.table-col-name {
+    width: calc((100% / 11)*4);
+    display: flex;
+    align-items: center;
+}
+
+.table-col-email {
+    width: calc((100% / 11)*3);
+    display: flex;
+    align-items: center;
+}
+
+.table-col-part {
+    width: calc((100% / 11)*2);
+     display: flex;
+    align-items: center;
+}
+.table-col-icon-sort {
+    margin-left: 4px;
+}
+.table-body {
+    display: flex;
+    padding: 8px 12px;
+}
+
+.table-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.table-show-number-row-dropdown-list {
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 6px;
+    margin: 0 8px;
+}
+
+.table-pagination-number {
+    display: flex;
+    align-items: center;
+    margin: 0 -2px;
+}
+
+.table-pagination-number-item-clicked,
+.table-pagination-number-item {
+    margin: 0 4px;
+    font-size: 16px;
+    padding: 0 8px;
+    border: 1px solid transparent;
+    left: 18px;
+}
+
+.table-pagination-number-item-clicked {
+    border-color: #ccc;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.admin-table {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.admin-table th {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    padding: 14px 0;
+}
+.admin-table td {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    padding: 8px 0;
+}
+
+.admin-table tbody tr + tr{
+    border-top: 1px solid #e4e4e4;
+}
+.admin-table thead tr {
+    background-color: #EDF4FF;
+}
+.admin-table thead tr:last-child {
+    margin-bottom: 50px;
+}
+
+.table-status-mission {
+    display: flex;
+    align-items: center;
+
+}
+
+.table-status-mission span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    margin-left: 6px;
+}
+
+.status-mission-processing span {
+    color: #A98313;
+}
+
+.status-mission-processed span {
+    color: #00AC27;
+}
+
+.status-mission-not-seen span {
+    color: #BD009F;
+}
+
+.status-mission-late span {
+    color: #C81A0A;
+}
+
+.btn-table-add {
+    width: 96px;
+    height: 96px;
+    background-color: #d6e4ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+    bottom: -85px;
+}
+.admin-container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-view-by-status {
+    color: #1A48E9;
+    display: flex;
+    align-items: center;
+}
+
+.btn-view-by-status span {
+    margin-left: 4px;
+    font-style: 16px;
+    font-weight: 500;
+}

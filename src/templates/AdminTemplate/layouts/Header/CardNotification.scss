@@ -1,0 +1,54 @@
+.btn-notification {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-notification {
+    --red: #E62614;
+    position: absolute;
+    width: 1007px;
+    height: 111px;
+    bottom: -641%;
+    left: -1390%;
+    border: 1px solid var(--red);
+    border-radius: 8px;
+    background-color: rgb(251, 239, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.card-notification-left {
+    display: flex;
+    align-items: center;
+    height: 46.03px;
+}
+.card-notification-left img {
+    width: 43.6px;
+    height: 46.03px;
+    margin-right: 15px;
+}
+
+.card-notification-content div {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--red);
+}
+.card-notification-content p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.card-notification-icon {
+    width: 51px;
+    height: 51px;
+    background-color: rgba(46, 179, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}

@@ -1,0 +1,41 @@
+.autodata {
+  position: relative;
+  width: 100%;
+  height: 38px;
+  border-radius: 8px;
+  .ant-select {
+    width: 100%;
+    height: 100%;
+
+    .ant-select-selector {
+      height: 100% !important;
+      border: 1px solid #ced4da !important;
+      border-radius: 0.25rem !important;
+      display: flex;
+      align-items: center;
+      .ant-select-selection-search {
+        .ant-select-selection-search-input {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          color: #333 !important;
+          font-size: 14px !important;
+          font-weight: 500 !important;
+        }
+      }
+      .ant-select-selection-placeholder {
+        font-size: 14px;
+        color: #989898;
+      }
+    }
+  }
+
+  i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #989898;
+  }
+}

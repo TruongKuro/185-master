@@ -1,0 +1,19 @@
+@import '../src/scss/Helper/mixin';
+@import '../src/scss/Helper/variable';
+
+@import '../src/scss/Reset/reset';
+
+@import '../src/pages/Login/Login.scss';
+@import '../src/templates/AdminTemplate/AdminTemplate.scss';
+@import '../src/templates/AdminTemplate/layouts/Navbar/Navbar.scss';
+@import '../src/templates/AdminTemplate/layouts/Header/Header.scss';
+@import '../src/pages/Admin/AdminHome/AdminHome.scss';
+@import '../src/pages/Admin/Register/Register.scss';
+@import '../src/pages/Admin/Edit/Edit.scss';
+@import '../src/pages/Admin/Information//Information.scss';
+@import '../src/pages/Admin/Mission/add-mission.scss';
+@import '../src/templates/AdminTemplate/layouts/Header/CardNotification.scss';
+@import '../src/components/AutoComplete/AutoData.scss';
+@import '../src/pages/Document/DocumentHome/DocumentHome.scss';
+
+
